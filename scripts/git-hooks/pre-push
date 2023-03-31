@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# # run tests directly from node_modules because use package.json's script is slower
+# echo "🧪 Running Tests 🧪"
+# ./node_modules/.bin/jest --no-coverage --verbose
+# JEST_EXIT_CODE=$?
+
+# # check jest exit code
+# if [ $JEST_EXIT_CODE -ne 0 ]; then
+#     echo "❌ Please check your tests ❌"
+#     exit 1
+# else
+#     echo "🎉 All tests went well 🎉"
+# fi
+
+# # return 0-exit code when all is fine
+# echo "🚀 Awesome code!! 🚀"
+# exit 0
