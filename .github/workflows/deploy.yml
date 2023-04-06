@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - chore/deploy-in-github-pages-for-org
+      - master
 
 jobs:
   build:
